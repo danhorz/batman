@@ -1,0 +1,36 @@
+.header
+{
+    width: 100% !important;
+    height: 200px !important;
+    border: none;
+}
+body
+{
+    margin: 0px;
+    font-family: sans-serif;
+   background-color: black;
+    
+}
+
+.footer
+{   
+    width: 100% !important;
+    height: 300px !important;
+    border: none;
+    justify-content: space-around;
+    
+}
+html
+{
+    height: 100%;
+    width: 100%;
+}
+
+    
+.body1
+{
+    margin: 0px;
+    font-family: sans-serif;
+   background-color: black;
+    
+}

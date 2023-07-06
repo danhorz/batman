@@ -1,0 +1,70 @@
+header
+{
+
+    background-color: #62CE67;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    width: 100% !important;
+   
+}
+.logo
+{
+    display: flex;
+    scale: 100%;
+}
+.logo img
+{
+    height: 200px;
+    justify-content: left;
+}
+body
+{
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #62CE67;
+    overflow: hidden;
+}
+a
+{    
+    text-decoration: none;
+    color: white;
+}
+
+.botones
+{
+    font-weight: 600;
+    margin: 25px;
+    height: auto;
+    background-color: #62CE67;
+    float:left;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  
+}
+
+.container{
+    width: 100% !important;
+    
+    
+}
+
+.corner-round{
+    border-bottom-right-radius: 4rem;
+}
+
+.picture{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 0px;
+}
+
+.string{
+    height: auto;
+    width: auto;
+    background-color: white;
+    margin: 0px;
+}
+

@@ -1,0 +1,123 @@
+.contenedor
+{   background-color:white;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+  
+    justify-content: space-evenly;
+
+    padding: 1% 1% 1% 1%;
+    
+
+   
+}
+.categoria
+{   background-color:#ffb347;
+    padding: 1% 0% 1% 0%;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+.productos
+{
+   
+    padding: 1%  1% 5%;
+    width: auto;
+    height: auto;
+    display: flex;
+
+}
+.contenedorcat1
+{   background-color: rgb(234, 239, 203);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px;
+   
+   
+}
+.bBuscar
+{
+    padding: left 0.5%;
+   
+}
+.box
+{
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.espacio
+{
+    display: flex;
+    justify-content: center;
+}
+.espacio2
+{
+   height: 10px;
+}
+.contenedorcat2
+{
+    background-color: rgb(234, 239, 203);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px;
+    
+}
+.btnCategoria
+{
+    width: 100%;
+    background-color: rgb(234, 239, 203);
+    border-color: yellow;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+   
+}
+.btnCategoriau
+{
+    width: 100%;
+    background-color: rgb(234, 239, 203);
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+   
+}
+.espacio3
+{
+   height: 5px;
+}
+.card
+{   width: 200px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+  
+   
+ 
+
+  
+}
+.imgCard
+{
+    width: 200 px;
+    height: 200px;
+}
+.bodyrow
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+.imgbuton
+{
+    border: none;
+   
+}
+.espacio4
+{
+    height: 20px;
+}

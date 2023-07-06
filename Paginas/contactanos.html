@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/estilo_paginas.css">
+    <link rel="stylesheet" href="/CSS/estilo__contactanos.css">
+    <link rel="stylesheet" href="/CSS/estiloBtnWtsp.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    
+    <title>Contactanos</title>
+   
+</head>
+<body>
+    <header ><iframe class="header" src="/Partes/encabezado.html"></iframe></header>
+    <main>
+        <div class="contenedor">
+            <div class="formconten">
+              
+             <div class="texto">
+                <h1>CONTACTENOS:</h1>
+                <b>Para obtener mas información sobre nuestros prouctos y experiencia en la industria o para que un profecional se comunique con usted directamente,comple el formulario a continuacion o envie un correo electrónico:
+                </b>
+                <hr>
+                <form action="" method="POST" class="formulario">
+                    <label for="nombre"><h2>Nombre</h2> </label>
+                    <input type="text" name="nombre" id="nombre" class="box">
+                    <label for="email"> <h2>Email</h2> </label>
+                    <input type="email" name="email" id="email" class="box">
+                    <label for="telefono"><h2>Teléfono</h2></label>
+                    <input type="text" name="telefono" id="telefono" class="box">
+                    <label for="sucursal"><h2>Sucursal</h2></label>
+                    <input type="text" name="sucursal" id="sucursal" class= "box">
+                    <label for="mensaje"><h2>Mensaje</h2></label>
+                    <textarea  id="mensaje" name="mensaje" cols="30" rows="10"></textarea>
+                   
+                    <input type="submit" value="Enviar" class="boton">
+                    <input type="hidden" name="_next" value="http://localhost:5500">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+
+                </form>
+             </div>   
+            </div>
+            
+                
+
+        
+
+    </div>
+
+    </main>
+    <footer ><iframe class="footer" src="/Partes/footer.html" ></iframe></footer>
+    <a href="https://api.whatsapp.com/send?phone=51979109099" class="btn-wsp" id="botonflotante" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
+</body>
+</html>
